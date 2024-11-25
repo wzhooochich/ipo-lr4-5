@@ -6,8 +6,9 @@ max=list[0]
 #индекс
 index=1
 
+#цикл while
 while index<len(list) :
-    if list[index]>max :
+    if list[index]>max :  #если элемент списка больше чем max , max = элементу списка
         max=list[index]
         index+=1
 
